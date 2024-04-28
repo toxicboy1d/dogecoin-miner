@@ -3,8 +3,8 @@ import time
 
 class Miner:
     def __init__(self, wallet_address, difficulty=5):
-        self.wallet_address = D8n2AX59hKcDrEV6UZgC2ZRQ8oTKZApm5P
-        self.difficulty = 5
+        self.wallet_address = wallet_address
+        self.difficulty = difficulty
         self.nonce = 0  
 
     def hash_with_nonce(self, data, nonce):
@@ -22,7 +22,7 @@ class Miner:
             nonce += 1
 
 
-wallet_address = "Addres Wallet"
+wallet_address = D8n2AX59hKcDrEV6UZgC2ZRQ8oTKZApm5P
 data = "Data for the new block"
 
 miner = Miner(wallet_address)
