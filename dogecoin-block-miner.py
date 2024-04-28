@@ -4,7 +4,7 @@ import time
 class Miner:
     def __init__(self, wallet_address, difficulty=5):
         self.wallet_address = D8n2AX59hKcDrEV6UZgC2ZRQ8oTKZApm5P
-        self.difficulty = easy
+        self.difficulty = 5
         self.nonce = 0  
 
     def hash_with_nonce(self, data, nonce):
